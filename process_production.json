@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "nodepublisher-app",
+      "interpreter": "node",
+      "script": "./dist/index.js",
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "env": {
+        "PORT": 8080,
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "apps": [
+    {
+      "name": "nodepublisher-app",
+      "interpreter": "babel-node",
+      "script": "./lib/index.js",
+      "watch": true,
+      "restart_delay": 500,
+      "ignore_watch": [
+        "static",
+        "dist"
+      ],
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "env": {
+        "PORT": 3000,
+        "NODE_ENV": "development"
+      }
+    }
+  ]
+}
