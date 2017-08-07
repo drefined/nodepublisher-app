@@ -16,7 +16,7 @@
       "git add"
     ]
   },
-  "author": "",
+  "author": "drefined",
   "license": "MIT",
   "dependencies": {
     "amqp": "^0.2.6",
